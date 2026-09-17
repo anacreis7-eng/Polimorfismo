@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Polimorfismo
 {
-    internal class Animal
+    internal class Leao : Animal
     {
-        public virtual void emitirSom()
+        public override void emitirSom()
         {
-            Console.WriteLine("Som de uma Animal");
+        Console.WriteLine($"O Leão faz !ROAR!");
         }
     }
 }
